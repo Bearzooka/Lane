@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "Lane/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "Lane"
+  spec.name          = "Lane-Reporter"
   spec.version       = Lane::VERSION
   spec.authors       = ["Bernardo Prieto"]
   spec.email         = ["bprieto@gmail.com"]
