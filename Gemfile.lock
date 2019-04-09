@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    Lane (0.1.0)
+    Lane-Reporter (0.1.0)
       ruby-jss (~> 1.0.2)
 
 GEM
@@ -40,7 +40,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  Lane!
+  Lane-Reporter!
   bundler (~> 2.0)
   rake (~> 10.0)
   ruby-jss (~> 1.0.2)
