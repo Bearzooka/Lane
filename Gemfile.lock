@@ -1,0 +1,49 @@
+PATH
+  remote: .
+  specs:
+    Lane (0.1.0)
+      ruby-jss (~> 1.0.2)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    domain_name (0.5.20180417)
+      unf (>= 0.0.5, < 1.0.0)
+    http-cookie (1.0.3)
+      domain_name (~> 0.5)
+    immutable-struct (2.4.0)
+    mime-types (3.2.2)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2019.0331)
+    net-ldap (0.16.1)
+    netrc (0.11.0)
+    plist (3.5.0)
+    rake (10.5.0)
+    recursive-open-struct (1.1.0)
+    rest-client (2.0.2)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 4.0)
+      netrc (~> 0.8)
+    ruby-jss (1.0.2)
+      immutable-struct (~> 2.3, >= 2.3.0)
+      net-ldap (~> 0.16)
+      plist (~> 3.1)
+      recursive-open-struct (~> 1.1, >= 1.1.0)
+      rest-client (>= 1.8.0, < 2.1)
+      ruby-mysql (~> 2.9, >= 2.9.12)
+    ruby-mysql (2.9.14)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  Lane!
+  bundler (~> 2.0)
+  rake (~> 10.0)
+  ruby-jss (~> 1.0.2)
+
+BUNDLED WITH
+   2.0.1
