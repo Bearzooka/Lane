@@ -1,5 +1,6 @@
-module Lane
+# frozen_string_literal: true
 
+module Lane
   USAGE = "≈≈≈ Lane, a real world reporter for JSS. ≈≈≈
 
   Usage: lane --advanced_search | -a ID [-separator | -s char] [-output | -o output path]
@@ -12,6 +13,4 @@ module Lane
 
   -o path, --output path:
      Path for the output of the processed report. Defaults to /Users/Shared/lane_report_YY-MM-DD.txt"
-
 end
-
