@@ -9,5 +9,5 @@
 *.swp
 .DS_Store
 vendor/ruby
-/data
+/data/
 .idea/workspace.xml
