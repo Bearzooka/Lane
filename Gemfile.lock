@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    Lane-Reporter (0.1.1)
+    Lane-Reporter (0.1.2)
       ruby-jss (~> 1.0.2)
 
 GEM

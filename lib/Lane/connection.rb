@@ -1,4 +1,3 @@
-
 require 'ruby-jss'
 require_relative 'config'
 
