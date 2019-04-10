@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="19273852-fc1a-4f57-acdb-62dc5b883743" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +76,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="231">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -93,6 +92,9 @@
     <findStrings>
       <find>mygem</find>
     </findStrings>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="ONTO" value="refs/heads/Release" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -133,6 +135,11 @@
             <path>
               <item name="Lane" type="b2602c69:ProjectViewProjectNode" />
               <item name="Lane" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lane" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lane" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -197,7 +204,7 @@
       <option name="presentableId" value="Default" />
       <updated>1554814260612</updated>
       <workItem from="1554814262047" duration="2411000" />
-      <workItem from="1554890944169" duration="1589000" />
+      <workItem from="1554890944169" duration="1881000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed gitignore">
       <created>1554891715811</created>
@@ -213,11 +220,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554891958646</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fixed gitignore">
+      <created>1554892619381</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1554892619381</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4000000" />
+    <option name="totallyTimeSpent" value="4292000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="0" width="1920" height="1080" extended-state="0" />
@@ -235,9 +249,9 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49946752" visible="true" weight="0.3297456" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49893504" visible="true" weight="0.3297456" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5005325" side_tool="true" visible="true" weight="0.3297456" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50106496" side_tool="true" visible="true" weight="0.3297456" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -356,7 +370,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
         </state>
       </provider>
     </entry>
