@@ -1,6 +1,6 @@
 #!/usr/bin/ruby
 
-require_relative '../lib/Lane/foundation'
+require_relative 'Lane/foundation'
 require 'getoptlong'
 
 # The CLI options for GetoptLong
