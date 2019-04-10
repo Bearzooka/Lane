@@ -9,4 +9,4 @@
 *.swp
 .DS_Store
 vendor/ruby
-data/lane_config.yaml
+/data/lane_config.yaml
