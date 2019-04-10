@@ -6,7 +6,7 @@ require "Lane/version"
 Gem::Specification.new do |spec|
   spec.name          = "Lane-Reporter"
   spec.version       = Lane::VERSION
-  spec.authors       = ["Bernardo Prieto"]
+  spec.authors       = ["Bearzooka"]
   spec.email         = ["bprieto@gmail.com"]
 
   spec.summary       = "Lane is a real-life reporter for JSS."

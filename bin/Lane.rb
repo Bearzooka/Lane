@@ -1,6 +1,6 @@
 #!/usr/bin/ruby
 
-require_relative 'Lane/foundation'
+require 'Lane/foundation'
 require 'getoptlong'
 
 # The CLI options for GetoptLong
@@ -51,6 +51,15 @@ output ? output : output = "/Users/Shared/new_report_#{Time.now.strftime('%Y-%m-
 separator ? separator : separator = ';'
 
 begin
+
+  if Lane::Configuration::DEFAULT_CONF_FILE.file?
+    @config_src = Lane::Configuration::DEFAULT_CONF_FILE.to_s
+    puts "Config present as #{@config_src}"
+  elsif Lane::Configuration::SAMPLE_CONF_FILE.file?
+    puts Lane::CONFIG_ERROR
+    exit 1
+  end
+
   Lane.connect_to_jss
   source = JSS::AdvancedComputerSearch.fetch(id: report_id.to_i).search_results
 
