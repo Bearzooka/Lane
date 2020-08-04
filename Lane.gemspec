@@ -34,7 +34,7 @@ Gem::Specification.new do |spec|
   spec.executables << 'Lane'
 
   spec.add_development_dependency "bundler", "~> 2.0"
-  spec.add_development_dependency "rake", "~> 12.3.3"
+  spec.add_development_dependency "rake", "~> 13.0.1"
   spec.add_development_dependency "ruby-jss", "~> 1.0.2"
   spec.add_runtime_dependency "ruby-jss", "~> 1.0.2"
 end

@@ -18,7 +18,7 @@ GEM
     net-ldap (0.16.1)
     netrc (0.11.0)
     plist (3.5.0)
-    rake (10.5.0)
+    rake (13.0.1)
     recursive-open-struct (1.1.0)
     rest-client (2.0.2)
       http-cookie (>= 1.0.2, < 2.0)
@@ -42,7 +42,7 @@ PLATFORMS
 DEPENDENCIES
   Lane-Reporter!
   bundler (~> 2.0)
-  rake (~> 12.3.3)
+  rake (~> 13.0.1)
   ruby-jss (~> 1.0.2)
 
 BUNDLED WITH
