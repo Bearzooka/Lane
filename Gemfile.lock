@@ -42,7 +42,7 @@ PLATFORMS
 DEPENDENCIES
   Lane-Reporter!
   bundler (~> 2.0)
-  rake (~> 10.0)
+  rake (~> 12.3.3)
   ruby-jss (~> 1.0.2)
 
 BUNDLED WITH
